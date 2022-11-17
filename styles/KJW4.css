@@ -1,0 +1,109 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__container {
+    margin-top: 120px;
+    margin-bottom: 64px;
+}
+
+.about__title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.about__text {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* Skills */
+.skillset {
+    width: 500px;
+    /* margin-bottom: 100px; */
+}
+
+.skillset__title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+.skills__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.skill__name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skill__percentage {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skill__line {
+    margin-top: 24px;
+    background-color: #BDE7FF;
+    width: 100%;
+    height: 8px;
+    border-radius: 20px;
+}
+
+.skill__line__color {
+    background-color: #33B4FF;
+    height: 8px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+/* Projects */
+
+.projects {
+    margin-bottom: 100px;
+}
+
+.projects__title {
+    text-align: center;
+    font-size: 32px;
+    margin: 60px 0 48px 0;
+}
+
+.projects__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects__container img {
+    border-radius: 20px;
+}
+
+.projects__item {
+    margin: 0 48px 0 48px;
+    cursor: pointer;
+}
+
+.projects__description {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.projects__detail {
+    text-align: center;
+    font-weight: 300;
+}

@@ -1,0 +1,37 @@
+/* Home */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.home__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__info__title {
+    margin-top: 48px;
+    font-size: 48px;
+}
+
+.home__avatar {
+    width: 300px;
+    border-radius: 100%;
+}
+
+.home__icons {
+    margin-top: 64px;
+    text-align: center;
+}
+
+.home__icons i {
+    font-size: 64px;
+    margin: 0 24px 0 24px;
+}
+
+.home__tags {
+    color: #33B4FF;
+}
